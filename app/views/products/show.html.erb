@@ -1,0 +1,17 @@
+<%= link_to '&larr; Back'.html_safe, root_path, class: 'btn btn-light mb-3' %>
+
+<h1>
+  <%= @product.name %>
+</h1>
+
+<color-picker></color-picker>
+
+<dl>
+  <dt>
+    Quantity
+  </dt>
+
+  <dd>
+    <%= @product.quantity %>
+  </dd>
+</dl>
